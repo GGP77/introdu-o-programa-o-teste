@@ -34,5 +34,4 @@ int main(){
     printf("A Divisão é: %d\n", divisao);
 
 
-
 }
