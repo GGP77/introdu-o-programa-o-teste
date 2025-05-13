@@ -6,7 +6,6 @@ int main() {
     float area, pib, superpoder;
     float densidadepopulacional, pibpercapta;
     
-
 printf("Informe o Estado: \n");
 scanf("%s", &estado);
 
@@ -47,7 +46,6 @@ printf("Super Poder: %f\n", superpoder);
     char Cidade[50], Estado[30], Codigo[10];
     float Area, Pib, Densidadepopulacional, Pibpercapta, SuperPoder;
     
-
 printf("Informe o Estado: \n");
 scanf("%s", &Estado);
 
@@ -73,7 +71,6 @@ Densidadepopulacional = (float) Populacao / Area;
 Pibpercapta = (float) Pib / Populacao;
 SuperPoder = Populacao + Area + Pib + Pontosturisticos + Pibpercapta + (1 / Densidadepopulacional);
 
-
 printf("Estado: %s\n", Estado);
 printf("Código da Carta: %s\n", Codigo);
 printf("Nome da Cidade: %s\n", Cidade);
@@ -86,7 +83,7 @@ printf("PIB per Capta: %.2f reais\n", Pibpercapta);
 printf("Super Poder: %f\n", SuperPoder);
 
 int resultadoPopulacao, resultadoArea, resultadoPib, resultadoPontoTuristico, resultadoDensidade, resultadoPibPercapta, 
-                                                                                                    resultadoSuper;
+     resultadoSuper;
 resultadoPopulacao = Populacao > populacao;
 resultadoArea = Area > area;
 resultadoPib = Pib > pib;
@@ -104,12 +101,6 @@ pintf("Pontos Turísticos: %d\n", resultadoPontoTuristico);
 printf("Densidade Populacional: %d\n", resultadoDensidade);
 print("PIB per Capta: %d\n", resultadoPibPercapta);
 printf("Super Poder: %d\n", resultadoSuper);
-
-
-
-
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome,
-
+ 
     return 0;
 }
