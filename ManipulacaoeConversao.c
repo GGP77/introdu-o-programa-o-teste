@@ -1,11 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    float a = 833.932;
-    float b = 20.766;
-    float quociente = (float) b / a; //"a" é explicidamente convertido para float - float entre parenteses chama-se casting
+    int a = 1494599;
+    float b = 728.8;
+    float quociente;
+    
+    quociente = (float) a / b; //"a" é explicidamente convertido para float - float entre parenteses chama-se casting
 
-    printf("Quociente: %.3f\n", quociente);
+    printf("Quociente: %f\n", quociente);
 
     //float nota1, nota2, nota3;
     //float media;
