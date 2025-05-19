@@ -28,4 +28,6 @@ int main(){
   }else {
       printf("Estoque normal.\n");
   }
+
+  
 }

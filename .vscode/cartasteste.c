@@ -83,25 +83,16 @@ printf("Densidade Populacional: %.2f hab/km²\n", Densidadepopulacional);
 printf("PIB per Capta: %.2f reais\n", Pibpercapta);
 printf("Super Poder: %f\n", SuperPoder);
 
-int resultadoPopulacao, resultadoArea, resultadoPib, resultadoPontoTuristico, resultadoDensidade, resultadoPibPercapta, 
-     resultadoSuper;
-resultadoPopulacao = Populacao > populacao;
-resultadoArea = Area > area;
-resultadoPib = Pib > pib;
-resultadoPontoTuristico = Pontosturisticos > pontosturisticos;
-resultadoDensidade = Densidadepopulacional < densidadepopulacional;
-resultadoPibPercapta = Pibpercapta > pibpercapta;
-resultadoSuper = SuperPoder > superpoder;
 
-printf("Comparação das Cartas: \n");
+printf("Comparação das Cartas (Atributo População):\n");
+printf("Carta 1 - Teresina (PI): 866.300 \n");
+printf("Carta 2 - Goiânia (GO): 1.494.599 \n");
 
-printf("População: %d\n", resultadoPopulacao);
-printf("Área: %d\n", resultadoArea);
-printf("PIB: %d\n", resultadoPib);
-printf("Pontos Turísticos: %d\n", resultadoPontoTuristico);
-printf("Densidade Populacional: %d\n", resultadoDensidade);
-printf("PIB per Capta: %d\n", resultadoPibPercapta);
-printf("Super Poder: %d\n", resultadoSuper);
+if(populacao > Populacao){
+    printf("Carta 1 (Teresina) venceu! \n");
+} else {
+    printf("Carta 2 (Goiânia) venceu! \n");
+}
 
 return 0;
 }
