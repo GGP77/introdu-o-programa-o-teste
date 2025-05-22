@@ -16,6 +16,6 @@ int main(){
      printf("Os dois números são negativos!\n");
   }*/
 
- 
+  
 
 }
